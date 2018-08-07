@@ -246,7 +246,7 @@
                                     <constraint firstItem="UuE-jk-tJg" firstAttribute="leading" secondItem="WPZ-Of-d9w" secondAttribute="leading" constant="20" id="zX6-6l-jXQ"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m0z-Kz-GlX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="m0z-Kz-GlX">
                                 <rect key="frame" x="16" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="P7z-iZ-tBX"/>

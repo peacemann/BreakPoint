@@ -22,6 +22,7 @@
 		464A05FA2119BD5C0026ED40 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A05F92119BD5C0026ED40 /* AuthService.swift */; };
 		46A2AEF22119F3D2009E3C25 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF12119F3D2009E3C25 /* MeVC.swift */; };
 		46A2AEF42119FAD4009E3C25 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF32119FAD4009E3C25 /* CreatePostVC.swift */; };
+		46A2AEF6211A079C009E3C25 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF5211A079C009E3C25 /* UIViewExt.swift */; };
 		573789A410F5779693A26158 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3D77F585048B037BED03E0 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		464A05F92119BD5C0026ED40 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		46A2AEF12119F3D2009E3C25 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		46A2AEF32119FAD4009E3C25 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		46A2AEF5211A079C009E3C25 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		9F3D77F585048B037BED03E0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81F3131664DDB9EEDE60B4B /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 		464A05EB211991FE0026ED40 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				46A2AEF5211A079C009E3C25 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A2AEF6211A079C009E3C25 /* UIViewExt.swift in Sources */,
 				46A2AEF22119F3D2009E3C25 /* MeVC.swift in Sources */,
 				464A05F22119AF5F0026ED40 /* AuthVC.swift in Sources */,
 				464A05D9211991790026ED40 /* GroupsVC.swift in Sources */,
