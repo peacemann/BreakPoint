@@ -14,6 +14,7 @@
 		464A05DE211991790026ED40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464A05DD211991790026ED40 /* Assets.xcassets */; };
 		464A05E1211991790026ED40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464A05DF211991790026ED40 /* LaunchScreen.storyboard */; };
 		464A05EE211995B80026ED40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 464A05ED211995B80026ED40 /* GoogleService-Info.plist */; };
+		464A05F021199A060026ED40 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A05EF21199A060026ED40 /* DataService.swift */; };
 		573789A410F5779693A26158 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3D77F585048B037BED03E0 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		464A05E0211991790026ED40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464A05E2211991790026ED40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464A05ED211995B80026ED40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		464A05EF21199A060026ED40 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		9F3D77F585048B037BED03E0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81F3131664DDB9EEDE60B4B /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 		464A05EC2119924C0026ED40 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				464A05EF21199A060026ED40 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				464A05D9211991790026ED40 /* SecondViewController.swift in Sources */,
 				464A05D5211991790026ED40 /* AppDelegate.swift in Sources */,
 				464A05D7211991790026ED40 /* FirstViewController.swift in Sources */,
+				464A05F021199A060026ED40 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
