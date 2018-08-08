@@ -19,12 +19,18 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
         textView.delegate = self
         sendBtn.bindToKeyboard()
+        
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.emailLbl.text = Auth.auth().currentUser?.email
     }
     
     
     @IBAction func sendBtnWasPressed(_ sender: Any) {
-        if textView.text != nil && textView.text != "Say something here..." {
+        if textView.text != "" && textView.text != "Say something here..." {
             sendBtn.isEnabled = false
             DataService.instance.uploadPost(withMessage: textView.text, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil, sendComplete: { (isComplete) in
                 if isComplete {
