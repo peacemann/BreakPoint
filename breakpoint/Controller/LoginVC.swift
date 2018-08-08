@@ -24,20 +24,26 @@ class LoginVC: UIViewController {
             AuthService.instance.loginUser(withEmail: emailField.text!, andPassword: passwordField.text!, loginComplete: { (success, loginError) in
                 if success {
                     self.dismiss(animated: true, completion: nil)
+                    print("SECTION 1")
                 } else {
                     print(String(describing: loginError?.localizedDescription))
+                    print("SECTION 2")
                 }
                 
                 AuthService.instance.registerUser(withEmail: self.emailField.text!, andPassword: self.passwordField.text!, userCreationComplete: { (success, registrationError) in
                     if success {
-                        AuthService.instance.loginUser(withEmail: self.emailField.text!, andPassword: self.emailField.text!, loginComplete: { (success, nil) in
-                            print("successfully registered user")
+                        print("SECTION 3")
+                        AuthService.instance.loginUser(withEmail: self.emailField.text!, andPassword: self.passwordField.text!, loginComplete: { (success, nil) in
+                            print("Successfully registered user")
                             self.dismiss(animated: true, completion: nil)
                         })
                     } else {
                         print(String(describing: registrationError?.localizedDescription))
+                        print("SECTION 4")
                     }
+                    
                 })
+                print("SECTION 5")
             })
         }
     }
