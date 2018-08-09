@@ -257,7 +257,7 @@
         <!--Group FeedVC-->
         <scene sceneID="NXf-75-J6P">
             <objects>
-                <viewController id="QF9-GB-8SJ" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="QF9-GB-8SJ" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rpg-4e-9DH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,8 +265,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnu-tH-fWo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1a-oH-7HD">
-                                        <rect key="frame" x="88" y="35" width="200" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1a-oH-7HD">
+                                        <rect key="frame" x="88" y="35" width="200" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="Eev-GT-Llv"/>
                                             <constraint firstAttribute="height" constant="20" id="dsI-2p-37I"/>
@@ -275,8 +275,8 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orl-ny-ida">
-                                        <rect key="frame" x="20" y="34" width="12" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orl-ny-ida">
+                                        <rect key="frame" x="20" y="33.5" width="12" height="22"/>
                                         <state key="normal" image="backIcon"/>
                                         <connections>
                                             <action selector="backBtnWasPressed:" destination="QF9-GB-8SJ" eventType="touchUpInside" id="1sh-Rp-YoN"/>
@@ -286,6 +286,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="N1a-oH-7HD" firstAttribute="centerX" secondItem="jnu-tH-fWo" secondAttribute="centerX" id="6bC-d6-118"/>
+                                    <constraint firstItem="N1a-oH-7HD" firstAttribute="top" secondItem="jnu-tH-fWo" secondAttribute="top" constant="35" id="fND-9p-Qza"/>
                                     <constraint firstAttribute="height" constant="70" id="jr2-KH-ePG"/>
                                     <constraint firstItem="orl-ny-ida" firstAttribute="centerY" secondItem="N1a-oH-7HD" secondAttribute="centerY" id="w0s-gl-aFo"/>
                                     <constraint firstItem="orl-ny-ida" firstAttribute="leading" secondItem="jnu-tH-fWo" secondAttribute="leading" constant="20" id="xRx-V0-INt"/>
@@ -408,7 +409,7 @@
                         <viewLayoutGuide key="safeArea" id="MOm-9a-lCk"/>
                     </view>
                     <connections>
-                        <outlet property="groupTitleLbl" destination="w0s-gl-aFo" id="9Z8-jl-61J"/>
+                        <outlet property="groupTitleLbl" destination="N1a-oH-7HD" id="QFP-cS-V76"/>
                         <outlet property="membersLbl" destination="hdz-IF-E84" id="bXd-8K-1Ku"/>
                         <outlet property="messageTextField" destination="Q4J-IC-XEz" id="Wky-0W-DqJ"/>
                         <outlet property="sendBtn" destination="pq7-At-iM3" id="Yhi-11-OjI"/>
