@@ -24,6 +24,7 @@
 		464A05F62119B0620026ED40 /* InsetTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A05F52119B0620026ED40 /* InsetTextfield.swift */; };
 		464A05F82119B9960026ED40 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A05F72119B9960026ED40 /* ShadowView.swift */; };
 		464A05FA2119BD5C0026ED40 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A05F92119BD5C0026ED40 /* AuthService.swift */; };
+		468E4CB1211EE8EF002D7BB0 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E4CB0211EE8EF002D7BB0 /* UIViewControllerExt.swift */; };
 		46A2AEF22119F3D2009E3C25 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF12119F3D2009E3C25 /* MeVC.swift */; };
 		46A2AEF42119FAD4009E3C25 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF32119FAD4009E3C25 /* CreatePostVC.swift */; };
 		46A2AEF6211A079C009E3C25 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2AEF5211A079C009E3C25 /* UIViewExt.swift */; };
@@ -55,6 +56,7 @@
 		464A05F52119B0620026ED40 /* InsetTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextfield.swift; sourceTree = "<group>"; };
 		464A05F72119B9960026ED40 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		464A05F92119BD5C0026ED40 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		468E4CB0211EE8EF002D7BB0 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		46A2AEF12119F3D2009E3C25 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		46A2AEF32119FAD4009E3C25 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		46A2AEF5211A079C009E3C25 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				46A2AEF5211A079C009E3C25 /* UIViewExt.swift */,
+				468E4CB0211EE8EF002D7BB0 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				46A2AEF22119F3D2009E3C25 /* MeVC.swift in Sources */,
 				4645E6AE211C7B9500D268E9 /* GroupCell.swift in Sources */,
 				464A05F22119AF5F0026ED40 /* AuthVC.swift in Sources */,
+				468E4CB1211EE8EF002D7BB0 /* UIViewControllerExt.swift in Sources */,
 				464A05D9211991790026ED40 /* GroupsVC.swift in Sources */,
 				4645E6B4211CB00000D268E9 /* GroupFeedVC.swift in Sources */,
 				4645E6B2211CAFAA00D268E9 /* GroupFeedCell.swift in Sources */,
