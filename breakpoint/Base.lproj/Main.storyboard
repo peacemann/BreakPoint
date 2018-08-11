@@ -292,11 +292,11 @@
                                     <constraint firstItem="orl-ny-ida" firstAttribute="leading" secondItem="jnu-tH-fWo" secondAttribute="leading" constant="20" id="xRx-V0-INt"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pF1-G2-dQs">
-                                <rect key="frame" x="0.0" y="103" width="375" height="477"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pF1-G2-dQs">
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" rowHeight="100" id="hSu-my-5aV" userLabel="groupFeedCell" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="hSu-my-5aV" userLabel="groupFeedCell" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hSu-my-5aV" id="xhi-qd-hAR">
@@ -394,7 +394,6 @@
                         <constraints>
                             <constraint firstItem="MOm-9a-lCk" firstAttribute="trailing" secondItem="hdz-IF-E84" secondAttribute="trailing" id="BAc-e2-9Ob"/>
                             <constraint firstItem="hdz-IF-E84" firstAttribute="leading" secondItem="MOm-9a-lCk" secondAttribute="leading" id="MsC-YM-s6E"/>
-                            <constraint firstItem="pF1-G2-dQs" firstAttribute="bottom" secondItem="MOm-9a-lCk" secondAttribute="bottom" id="QAA-7Y-ZjD"/>
                             <constraint firstItem="pF1-G2-dQs" firstAttribute="trailing" secondItem="MOm-9a-lCk" secondAttribute="trailing" id="VDZ-Q8-z5p"/>
                             <constraint firstItem="clG-4c-cXm" firstAttribute="bottom" secondItem="MOm-9a-lCk" secondAttribute="bottom" id="cwc-T7-c6o"/>
                             <constraint firstItem="pF1-G2-dQs" firstAttribute="leading" secondItem="MOm-9a-lCk" secondAttribute="leading" id="fIN-GK-vdx"/>
@@ -404,6 +403,7 @@
                             <constraint firstItem="MOm-9a-lCk" firstAttribute="trailing" secondItem="clG-4c-cXm" secondAttribute="trailing" id="nyK-Fr-JcT"/>
                             <constraint firstItem="hdz-IF-E84" firstAttribute="top" secondItem="jnu-tH-fWo" secondAttribute="bottom" constant="8" id="pVd-HH-ndJ"/>
                             <constraint firstItem="jnu-tH-fWo" firstAttribute="top" secondItem="Rpg-4e-9DH" secondAttribute="top" id="rbl-Tg-mqu"/>
+                            <constraint firstItem="clG-4c-cXm" firstAttribute="top" secondItem="pF1-G2-dQs" secondAttribute="bottom" id="stT-JF-u2r"/>
                             <constraint firstItem="clG-4c-cXm" firstAttribute="leading" secondItem="MOm-9a-lCk" secondAttribute="leading" id="tfQ-eR-6mM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MOm-9a-lCk"/>
